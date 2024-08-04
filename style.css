@@ -1,0 +1,48 @@
+img {
+  border-radius: 50px;
+  animation: bounce 2s infinite;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 18px;
+}
+body{
+  background: linear-gradient(to right,slateblue,lightblue);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+a{
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+   display: block;
+  text-align: center;
+  margin: 10px;
+  color: slateblue;
+  text-decoration: none;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+body{
+  text-align: center;
+}
+a:hover{
+  color: lightgray;
+  background-color: lightcoral;
+  transform: scale(1.10);
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40%{
+transform: translateY(-10px);
+  }
+  60%{
+transform: translateY(-5px);
+  }
+}
